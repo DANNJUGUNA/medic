@@ -1,14 +1,14 @@
 import React from 'react'
-
+import logo from "../../assets/logo.png"
 const Navbar = () => {
   return <header>
-    <div className="container">
+    <div className="container py-3 flex items-center justify-between">
         {/* Log section */}
         <div>
-            <h1>Log</h1>
+           <img src={logo} alt="logo" className=' mr-4'/>
         </div>
         {/* Navigation section */}
-        <ul>
+        <ul className='flex items gap-5'>
             <li>
                 <a href="#">Home</a>
             </li> 
