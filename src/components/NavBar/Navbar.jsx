@@ -5,10 +5,10 @@ const Navbar = () => {
     <div className="container py-3 flex items-center justify-between">
         {/* Log section */}
         <div>
-           <img src={logo} alt="logo" className=' mr-4'/>
+           <img src={logo} alt="logo" className=''/>
         </div>
         {/* Navigation section */}
-        <ul className='flex items gap-5'>
+        <ul className='hidden md:flex items-center font-semibold gap-5'>
             <li>
                 <a href="#">Home</a>
             </li> 
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
         {/* button section */}
         <div>
-            <button>Get in Touch</button>
+            <button className=' border border-black px-4 py-4 rounded-full text-xl font-bold hover:bg-primary hover:text-white transform duration-300 '>Get in Touch</button>
         </div>
     </div>
   </header>
