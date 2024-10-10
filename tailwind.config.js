@@ -6,7 +6,26 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary:'#FBBF24',
+        bandwhite:'#f5f5f5'
+
+      },
+      fontFamily:{
+        poppins:['poppins','sans-serif']
+      },
+      container:{
+        center:true,
+        padding:{
+          DEFAULT:'1rem',
+          sm:'2rem',
+          lg:'4rem',
+          xl:'5rem',
+          '2xl':'6rem'
+        }
+      }
+    },
   },
   plugins: [],
 }
