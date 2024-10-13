@@ -9,7 +9,8 @@ export default {
     extend: {
       colors:{
         primary:'#ff3131',
-        bandwhite:'#f5f5f5'
+        bandwhite:'#f5f5f5',
+        darkblue:'#171a67'
 
       },
       fontFamily:{
